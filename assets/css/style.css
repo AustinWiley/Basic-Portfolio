@@ -1,0 +1,142 @@
+body {
+    background-image: url(../images/circle.png);
+    background-repeat: repeat;
+}
+
+.nav-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #dddddd;
+
+}
+
+.topnav, a, p, form, footer {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.nameplace {
+    float: left;
+    color: #ffffff;
+    margin-right: 200px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 37px;
+    padding: 10px;
+}
+
+.topnav a {
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+}
+
+.about-wrapper {
+    width: 916px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: 2px solid #dddddd;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 37px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px;
+}
+
+Img {
+    float: left;
+    margin: 20px 20px 20px 0px;
+}
+
+p {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* css for Portfolio page boxes*/
+.box {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("https://s7d2.scene7.com/is/image/PetSmart/ARTHMB-CaringForYourGuineaPig-20160818?$AR1104$");
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+  
+h2 {
+    position: absolute;
+    bottom: 15px;
+    width: inherit;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #4aaaa5;
+}
+
+.box:hover {
+      opacity: 0.5;
+}
+
+.left {
+    float: left;
+}
+
+/*this is the contacts page css*/
+form {
+    margin-top: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #dddddd;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #8ff0eb;
+}
+
+/* this makes the .about-wrapper clear all contents*/
+.clear {
+    clear: both;
+}
