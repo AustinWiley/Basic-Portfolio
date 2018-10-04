@@ -135,7 +135,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #8ff0eb;
+    background-color: #666666;
 }
 
 /* this makes the .about-wrapper clear all contents*/
