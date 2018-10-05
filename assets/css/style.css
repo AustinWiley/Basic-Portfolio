@@ -1,3 +1,7 @@
+/* * {
+box-sizing: border-box;
+}     */
+
 body {
     background-image: url(../images/circle.png);
     background-repeat: repeat;
@@ -88,7 +92,7 @@ footer {
     position: relative;
     height: 200px;
     width: 200px;
-    background-image: url("https://s7d2.scene7.com/is/image/PetSmart/ARTHMB-CaringForYourGuineaPig-20160818?$AR1104$");
+    background-image: url("../images/guineapig.jpg");
     margin: 10px;
     text-align: center;
     color: #ffffff;
